@@ -1,0 +1,50 @@
+Basics
+How do you find the type of an expression (when using the interpreter)?
+What is the type of a string, written in correct Haskell type syntax?
+What is the type of the expression (5 == 5)?
+What is the type signature for a function that takes in an integer and puts out a string?
+What is the type signature for a function that takes in two integers and multiplies them?
+What is the type of (factorial 50) from the book? How is that different from an Int?
+Write the signature of a function prob3 that takes in a number and puts out a string.
+What is the correct way to write the type signature of a function prob4 that take single number and a list of numbers and puts out a list of numbers?
+
+Find out the difference between Float and Double. Summarize it here.
+
+How can you tell whether the text “string” in a program refers to a variable or a type?
+
+Write the type signature for:
+
+snd
+repeat
+init
+Class Constraints
+Where can you find a class constraint?
+What special symbol separate a class constraint from a function’s type?
+What is the best type to give the function:
+
+ mystery a b = if ( a < b ) then "A small" else "A large"
+What familiar typeclass indicates that something can be written in string form?
+
+The Read Typeclass
+What does being in the Read typeclass indicate?
+How can you convert the string “10230” to an integer?
+Miscellaneous Typeclasses
+What is the main use of the Enum typeclass?
+Aside from integers, give two other examples of things in the Enum typeclass.
+What typeclass tells you that something has a largest and smallest value?
+How would you find the smallest possible Int in Haskell?
+
+Math
+What is the difference between 5 and (5 :: Int)?
+Can you do this math?
+3.2 * (5 :: Int)
+5.63 * 20
+What will happen when you use the following function? listBigSize aList = 3 * (length aList)
+
+Integral Vs Floating
+The last function discussed in the chapter is the most important by far.
+
+Write its name and signature here.
+What is it used for?
+Programming exercise: the quadratic formula. Write and test a function that takes in a,b, and c, and produces the larger root of ax^2+bx+c. (Assume there is at least one real root.)
+
